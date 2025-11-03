@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div>
+            <button id="themeSwitch">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
+            </button>
+        </div>
+        <div class="infos">
+            <img src="assets/images/profile picture.jpg" class="profilePicture">
+            <h5 class="profileName">Joshiel Leonil<br>Dela Cruz</h5>
+            <ul>
+                <li>
+                    Programming <a href="#program-skill" class="more">(+)</a>
+                    <div id="program-skill" class="modal">
+                        <div class="modalContent">
+                            <a href="#" class="modalClose">(-)</a>
+                            <div class="expSkill">
+                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Python</title><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg>
+                                Python
+                                <span class="experienceBar">
+                                <span class="experience" id="python"></span>
+                                </span>
+                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>JavaScript</title><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg>
+                                JavaScript
+                                <span class="experienceBar">
+                                <span class="experience" id="jscript"></span>
+                                </span>
+                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>CSS</title><path d="M0 0v20.16A3.84 3.84 0 0 0 3.84 24h16.32A3.84 3.84 0 0 0 24 20.16V3.84A3.84 3.84 0 0 0 20.16 0Zm14.256 13.08c1.56 0 2.28 1.08 2.304 2.64h-1.608c.024-.288-.048-.6-.144-.84-.096-.192-.288-.264-.552-.264-.456 0-.696.264-.696.84-.024.576.288.888.768 1.08.72.288 1.608.744 1.92 1.296q.432.648.432 1.656c0 1.608-.912 2.592-2.496 2.592-1.656 0-2.4-1.032-2.424-2.688h1.68c0 .792.264 1.176.792 1.176.264 0 .456-.072.552-.24.192-.312.24-1.176-.048-1.512-.312-.408-.912-.6-1.32-.816q-.828-.396-1.224-.936c-.24-.36-.36-.888-.36-1.536 0-1.44.936-2.472 2.424-2.448m5.4 0c1.584 0 2.304 1.08 2.328 2.64h-1.608c0-.288-.048-.6-.168-.84-.096-.192-.264-.264-.528-.264-.48 0-.72.264-.72.84s.288.888.792 1.08c.696.288 1.608.744 1.92 1.296.264.432.408.984.408 1.656.024 1.608-.888 2.592-2.472 2.592-1.68 0-2.424-1.056-2.448-2.688h1.68c0 .744.264 1.176.792 1.176.264 0 .456-.072.552-.24.216-.312.264-1.176-.048-1.512-.288-.408-.888-.6-1.32-.816-.552-.264-.96-.576-1.2-.936s-.36-.888-.36-1.536c-.024-1.44.912-2.472 2.4-2.448m-11.031.018c.711-.006 1.419.198 1.839.63.432.432.672 1.128.648 1.992H9.336c.024-.456-.096-.792-.432-.96-.312-.144-.768-.048-.888.24-.12.264-.192.576-.168.864v3.504c0 .744.264 1.128.768 1.128a.65.65 0 0 0 .552-.264c.168-.24.192-.552.168-.84h1.776c.096 1.632-.984 2.712-2.568 2.688-1.536 0-2.496-.864-2.472-2.472v-4.032c0-.816.24-1.44.696-1.848.432-.408 1.146-.624 1.857-.63"/></svg>
+                                CSS
+                                <span class="experienceBar">
+                                <span class="experience" id="css"></span>
+                                </span>
+                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>HTML5</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg>
+                                HTML
+                                <span class="experienceBar">
+                                <span class="experience" id="html"></span>
+                                </span>
+                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>C++</title><path d="M22.394 6c-.167-.29-.398-.543-.652-.69L12.926.22c-.509-.294-1.34-.294-1.848 0L2.26 5.31c-.508.293-.923 1.013-.923 1.6v10.18c0 .294.104.62.271.91.167.29.398.543.652.69l8.816 5.09c.508.293 1.34.293 1.848 0l8.816-5.09c.254-.147.485-.4.652-.69.167-.29.27-.616.27-.91V6.91c.003-.294-.1-.62-.268-.91zM12 19.11c-3.92 0-7.109-3.19-7.109-7.11 0-3.92 3.19-7.11 7.11-7.11a7.133 7.133 0 016.156 3.553l-3.076 1.78a3.567 3.567 0 00-3.08-1.78A3.56 3.56 0 008.444 12 3.56 3.56 0 0012 15.555a3.57 3.57 0 003.08-1.778l3.078 1.78A7.135 7.135 0 0112 19.11zm7.11-6.715h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79zm2.962 0h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79z"/></svg>
+                                C++
+                                <span class="experienceBar">
+                                <span class="experience" id="cpp"></span>
+                                </span>
+                            </div>    
+                        </div>
+                    </div>
+                    <span class="progressBar">
+                        <span class="progress" id="program"></span>
+                    </span>
+                </li>
+                <li>
+                    Lingustics <a href="#language-skill" class="more">(+)</a>
+                    <div id="language-skill" class="modal">
+                        <div class="modalContent">
+                            <a href="#" class="modalClose">(-)</a>
+                            <div class="expSkill">
+                                Tagalog
+                                <span class="experienceBar">
+                                <span class="experience" id="tagalog"></span>
+                                </span>
+                                English
+                                <span class="experienceBar">
+                                <span class="experience" id="english"></span>
+                                </span>
+                                Spanish(EU)
+                                <span class="experienceBar">
+                                <span class="experience" id="spanish"></span>
+                                </span>
+                                Japanese
+                                <span class="experienceBar">
+                                <span class="experience" id="japanese"></span>
+                                </span>
+                                French(EU)
+                                <span class="experienceBar">
+                                <span class="experience" id="french"></span>
+                                </span>
+                            </div>         
+                        </div>
+                    </div>
+                    <span class="progressBar">
+                        <span class="progress" id="language"></span>
+                    </span>
+                </li>
+                <li>
+                    Content Creation <a href="#creation-skill" class="more">(+)</a>
+                    <div id="creation-skill" class="modal">
+                        <div class="modalContent">
+                            <a href="#" class="modalClose">(-)</a>
+                            <div class="expSkill">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-260q75 0 127.5-52.5T660-440q0-75-52.5-127.5T480-620q-75 0-127.5 52.5T300-440q0 75 52.5 127.5T480-260Zm0-80q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM160-120q-33 0-56.5-23.5T80-200v-480q0-33 23.5-56.5T160-760h126l74-80h240l74 80h126q33 0 56.5 23.5T880-680v480q0 33-23.5 56.5T800-120H160Zm0-80h640v-480H638l-73-80H395l-73 80H160v480Zm320-240Z"/></svg>
+                                Photography
+                                <span class="experienceBar">
+                                <span class="experience" id="photo"></span>
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h480q33 0 56.5 23.5T720-720v180l160-160v440L720-420v180q0 33-23.5 56.5T640-160H160Zm0-80h480v-480H160v480Zm0 0v-480 480Z"/></svg>
+                                Videography
+                                <span class="experienceBar">
+                                <span class="experience" id="video"></span>
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                                Writing
+                                <span class="experienceBar">
+                                <span class="experience" id="writing"></span>
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M160-240v-320 320Zm0 80q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800l80 160h120l-80-160h80l80 160h120l-80-160h80l80 160h120l-80-160h120q33 0 56.5 23.5T880-720v160H160v320h320v80H160Zm400 40v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q8 9 12.5 20t4.5 22q0 11-4 22.5T903-340L683-120H560Zm300-263-37-37 37 37ZM620-180h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z"/></svg>
+                                Editing
+                                <span class="experienceBar">
+                                <span class="experience" id="editing"></span>
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M520-600v-240h320v240H520ZM120-440v-400h320v400H120Zm400 320v-400h320v400H520Zm-400 0v-240h320v240H120Zm80-400h160v-240H200v240Zm400 320h160v-240H600v240Zm0-480h160v-80H600v80ZM200-200h160v-80H200v80Zm160-320Zm240-160Zm0 240ZM360-280Z"/></svg>
+                                Media Management
+                                <span class="experienceBar">
+                                <span class="experience" id="management"></span>
+                                </span>
+                            </div>         
+                        </div>
+                    </div>
+                    <span class="progressBar">
+                        <span class="progress" id="creation"></span>
+                    </span>
+                </li>
+                <li>
+                    Perfoming Arts <a href="#arts-skill" class="more">(+)</a>
+                    <div id="arts-skill" class="modal">
+                        <div class="modalContent">
+                            <a href="#" class="modalClose">(-)</a>
+                            <div class="expSkill">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-280q66 0 113-47t47-113H320q0 66 47 113t113 47ZM280-600h160q0-33-23.5-56.5T360-680q-33 0-56.5 23.5T280-600Zm240 0h160q0-33-23.5-56.5T600-680q-33 0-56.5 23.5T520-600ZM480-80q-75 0-140.5-28.5t-114-77q-48.5-48.5-77-114T120-440v-440h720v440q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-80Zm0-80q116 0 198-82t82-198v-360H200v360q0 116 82 198t198 82Zm0-320Z"/></svg>
+                                Acting
+                                <span class="experienceBar">
+                                <span class="experience" id="acting"></span>
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-400q-50 0-85-35t-35-85v-240q0-50 35-85t85-35q50 0 85 35t35 85v240q0 50-35 85t-85 35Zm0-240Zm-40 520v-123q-104-14-172-93t-68-184h80q0 83 58.5 141.5T480-320q83 0 141.5-58.5T680-520h80q0 105-68 184t-172 93v123h-80Zm40-360q17 0 28.5-11.5T520-520v-240q0-17-11.5-28.5T480-800q-17 0-28.5 11.5T440-760v240q0 17 11.5 28.5T480-480Z"/></svg>
+                                Voice Acting
+                                <span class="experienceBar">
+                                <span class="experience" id="voice"></span>
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m684-389 179-179 57 57-180 179-56-57ZM40-160v-106q0-24 13.5-44T90-339q21-8 40-19t38-25l58 58q5 7 13.5 6.5T254-325q5-5 5-13.5t-5-15.5l-55-55 15.5-15.5Q222-432 230-441l54 55q5 7 13.5 7t15.5-7q5-5 5-13.5t-5-15.5l-55-54q5-10 10.5-20.5T278-512l65 65q5 7 13.5 7t15.5-7q5-5 5-13t-5-15l-77-77 41-114 216-214 282 283-414 437H40Zm345-80 337-355-337 355Zm-265 0h265l337-355-171-171-146 145-29 81 30 30q23 24 23 57.5T406-396L293-283q-24 24-57 24t-56-24l-8-8q-13 8-26 14t-26 11v26Z"/></svg>
+                                Dancing
+                                <span class="experienceBar">
+                                <span class="experience" id="dance"></span>
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M40-320v-240q0-33 23.5-56.5T120-640h80q33 0 56.5 23.5T280-560v240h-80v-80h-80v80H40Zm80-160h80v-80h-80v80Zm240 160v-320h160q33 0 56.5 23.5T600-560v160q0 33-23.5 56.5T520-320H360Zm80-80h80v-160h-80v160Zm274 32-56-57q11-11 16.5-25t5.5-30q0-17-5.5-30.5T658-535l56-58q22 22 34 51t12 62q0 33-12 61.5T714-368Zm113 113-58-55q33-33 52-76.5t19-93.5q0-51-19-94t-52-76l58-56q44 44 68.5 102T920-480q0 66-24.5 123.5T827-255Z"/></svg>
+                                Spoken Word
+                                <span class="experienceBar">
+                                <span class="experience" id="speaking"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="progressBar">
+                        <span class="progress" id="perform"></span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="contents">
+            <p class="updated">Latest Update: Nov. 03, 2025</p>
+            <ul class="tabMenu">
+                <li class="tabMenuItem">
+                    <button type="button" class="tabMenuButton is-active">
+                        Home
+                    </button>
+                </li>
+                <li class="tabMenuItem">
+                    <button type="button" class="tabMenuButton">
+                        Projects
+                    </button>
+                </li>
+                <li class="tabMenuItem">
+                    <button type="button" class="tabMenuButton">
+                        Contact
+                    </button>
+                </li>
+            </ul>
+
+            <section class="tabPanel is-active">
+                <h2 class="tabPanel__heading">Welcome!</h2>
+                <p>Hi, I’m Joshiel Leonil Dela Cruz — a passionate creator who enjoys blending creativity and technology. 
+                    From programming and photography to content creation and performing arts, I love exploring different ways to tell stories and bring ideas to life.
+                    Feel free to explore my projects and see how I combine skills and creativity to make meaningful work.
+                </p>
+            </section>
+
+            <section class="tabPanel flowContent">
+                <div class="container">
+                    <article class="projectContainer">
+                        <img src="assets/images/calculator.jpg" alt="image" class="thumbnail">
+                        <h4 class="projectTitle">Calculator</h4>
+                        <p class="description">A calculator made using Python.</p>
+                        <a href="assets/project/Calculator/Calculator.py">Download</a>
+                    </article>
+
+                </div>
+            </section>
+
+            <section class="tabPanel">
+                <h2 class="tabPanel__heading">Contact Me</h2>
+                
+                <form action="https://formsubmit.co/joshiel.leonil.delacruz@gmail.com" method="POST">
+                    <input class="contactForm" type="text" name="name" required placeholder="Name">
+                    <input class="contactForm" type="email" name="email" required placeholder="Email">
+                    <input class="contactForm" type="subject" name="subject" required placeholder="Subject">
+                    <textarea type="message" name="message" required placeholder="Message"></textarea>
+                    <input type="hidden" name="_template" value="table">
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+    <script src="assets/js/app.js"></script>
+    </body>
+</html>
