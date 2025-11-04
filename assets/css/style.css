@@ -28,8 +28,8 @@
 
 @font-face {
     font-family: 'Monocraft';
-    src: url('monocraft/MinecraftRegular-Bmg3.otf') format('otf'),
-        url('monocraft/MinecraftBold-nMK1.otf') format('otf');
+    src: url('../monocraft/MinecraftRegular-Bmg3.otf') format('otf'),
+        url('../monocraft/MinecraftBold-nMK1.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -542,4 +542,5 @@ form button:hover{
     overflow: auto;
     scrollbar-width: thin;
     scrollbar-color: var(--background-lines) var(--background-base);
+
 }
