@@ -26,14 +26,6 @@
     --border-color: white;
 }
 
-@font-face {
-    font-family: 'Monocraft';
-    src: url('../monocraft/MinecraftRegular-Bmg3.otf') format('otf'),
-        url('../assets/monocraft/MinecraftBold-nMK1.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body{
     margin: 0;
     padding: 0;
@@ -43,7 +35,7 @@ body{
     --tab-text: var(--border-color);
     --tab-text-active: var(--base-color);
 
-    font-family: 'Monocraft', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
     color: var(--text-color);
     letter-spacing: 2px;
     line-height: 1.5;
@@ -197,7 +189,7 @@ body{
 
     cursor: pointer;
 
-    font-family: 'Monocraft', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
 
     padding: 0.75rem 1rem;
 
@@ -238,7 +230,7 @@ form{
 form .contactForm{
     background: var(--base-variant);
     color: var(--text-color);
-    font-family: 'Monocraft', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
 
     border: 1.5px solid var(--border-color);
     border-radius: 10px 0 10px 0;
@@ -250,7 +242,7 @@ form .contactForm{
 form textarea{
     background: var(--base-variant);
     color: var(--text-color);
-    font-family: 'Monocraft', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
 
     border: 1.5px solid var(--border-color);
     border-radius: 10px 0 10px 0;
@@ -264,7 +256,7 @@ form textarea{
 form button{
     background: var(--accent-color);
     color: var(--text-color);
-    font-family: 'Monocraft', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
     text-transform: uppercase;
 
     z-index: 0;
@@ -605,7 +597,7 @@ form button:hover{
 
         cursor: pointer;
 
-        font-family: 'Monocraft', sans-serif;
+        font-family: 'Pixelify Sans', sans-serif;
 
         padding: 0.75rem 1rem;
 
