@@ -1,0 +1,233 @@
+{
+  "brand": {
+    "name": "LEO.DEV",
+    "displayName": "{LEO.DEV}",
+    "tagline": "IT portfolio",
+    "handle": "@leo.dev"
+  },
+  "nav": {
+    "links": [
+      { "label": "work", "path": "/work", "target": "#work" },
+      { "label": "skills", "path": "/skills", "target": "#skills" },
+      { "label": "certificates", "path": "/certificates", "target": "#certificates" }
+    ],
+    "cta": { "label": "Contact", "target": "#contact" }
+  },
+  "hero": {
+    "statusTag": "STATUS // BUILDING",
+    "greeting": "Hi, I'm",
+    "name": "Leo",
+    "headline": "I build across web, games, and AI.",
+    "subhead": "This is a working record of what I've built: web apps, small games, and projects exploring AI prompting. Course work, personal builds, and things I made to learn something specific.",
+    "primaryCta": { "label": "View my work", "target": "#work" },
+    "secondaryCta": { "label": "Get in touch", "target": "#contact" },
+    "hudCards": [
+      { "label": "FOCUS", "value": "WEB / GAME / AI", "note": "current areas" },
+      { "label": "STATUS", "value": "ACTIVE", "note": "building and learning" },
+      { "label": "STACK", "value": "REACT / UNITY / PY", "note": "primary tools" }
+    ]
+  },
+  "about": {
+    "eyebrow": "ABOUT",
+    "heading": "I like picking something I don't know yet and building with it.",
+    "bio": "I'm Leo. My background is in IT, and I split my project time across three areas: web development, game development, and AI prompting. I don't specialize in just one because each one teaches me something the others don't: web work is about structure and users, game dev is about feel and logic, and prompting is about being precise with language to get a reliable result.",
+    "focusAreas": [
+      "Web development: React and Node projects, from small tools to full sites",
+      "Game development: browser and desktop games built in Unity and Godot",
+      "AI prompting: structured prompts, evaluation, and small AI-assisted tools",
+      "Documentation: every project here includes notes on what I'd change next"
+    ]
+  },
+  "skills": {
+    "heading": "Tools I use",
+    "intro": "What I reach for most often, organized by discipline.",
+    "groups": [
+      { "label": "Web development", "items": ["React", "Next.js", "TypeScript", "Node.js", "Tailwind CSS"] },
+      { "label": "Game development", "items": ["Unity", "C#", "Godot", "GDScript"] },
+      { "label": "AI & prompting", "items": ["Prompt design", "OpenAI API", "LangChain", "Python"] },
+      { "label": "General", "items": ["Git", "PostgreSQL", "Figma", "Linux"] }
+    ]
+  },
+  "work": {
+    "heading": "Projects",
+    "intro": "A mix of web apps, games, and AI experiments. Project file placeholders are marked below, swap them for your own repo links or downloads.",
+    "projects": [
+      {
+        "index": "01",
+        "category": "WEB DEV",
+        "name": "Fieldnote",
+        "type": "Booking web app",
+        "description": "A booking flow for outdoor guides, built to test how far a checkout process can be simplified without losing information the guide actually needs.",
+        "tags": ["Next.js", "Stripe", "Sanity"],
+        "filesLabel": "Project files"
+      },
+      {
+        "index": "02",
+        "category": "WEB DEV",
+        "name": "Pallet",
+        "type": "Internal dashboard",
+        "description": "A scheduling dashboard built to replace a shared spreadsheet, with role-based views and a simple conflict warning when two bookings overlap.",
+        "tags": ["React", "Node", "Postgres"],
+        "filesLabel": "Project files"
+      },
+      {
+        "index": "03",
+        "category": "GAME DEV",
+        "name": "Signal Drift",
+        "type": "2D puzzle game",
+        "description": "A short puzzle game about routing power through a broken grid. Built to practice level design and a save system that doesn't break on partial progress.",
+        "tags": ["Unity", "C#"],
+        "filesLabel": "Project files"
+      },
+      {
+        "index": "04",
+        "category": "GAME DEV",
+        "name": "Hollow Freight",
+        "type": "Top-down prototype",
+        "description": "A top-down movement and inventory prototype built in Godot, mainly to learn its scene system and compare it against Unity for a small project.",
+        "tags": ["Godot", "GDScript"],
+        "filesLabel": "Project files"
+      },
+      {
+        "index": "05",
+        "category": "AI PROMPTING",
+        "name": "Brief Compiler",
+        "type": "Prompt pipeline",
+        "description": "A structured prompt chain that turns a messy project brief into a scoped task list, built to test how much structure a prompt needs before output quality stops improving.",
+        "tags": ["OpenAI API", "Python"],
+        "filesLabel": "Project files"
+      },
+      {
+        "index": "06",
+        "category": "AI PROMPTING",
+        "name": "Support Triage",
+        "type": "Prompt evaluation set",
+        "description": "A set of prompts and test cases for sorting support tickets by urgency, along with notes on where the model got it wrong and how the prompt was adjusted.",
+        "tags": ["LangChain", "Prompt design"],
+        "filesLabel": "Project files"
+      }
+    ]
+  },
+  "certificates": {
+    "heading": "Certificates",
+    "intro": "Course and program certificates. Files are placeholders, replace each with your own PDF or credential link.",
+    "items": [
+      { "title": "Certificate title", "issuer": "Issuing organization", "date": "Add date" },
+      { "title": "Certificate title", "issuer": "Issuing organization", "date": "Add date" },
+      { "title": "Certificate title", "issuer": "Issuing organization", "date": "Add date" },
+      { "title": "Certificate title", "issuer": "Issuing organization", "date": "Add date" }
+    ]
+  },
+  "contact": {
+    "heading": "Get in touch",
+    "terminalPrompt": "leo@dev:~$ ./send_message.sh",
+    "intro": "Questions about a project, a certificate, or just want to say hi. I reply within a day, usually sooner.",
+    "email": "hello@leo.dev",
+    "formLabels": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message"
+    }
+  },
+  "footer": {
+    "credit": "{LEO.DEV}",
+    "handle": "@leo.dev",
+    "socials": [
+      { "label": "GitHub", "url": "https://github.com" },
+      { "label": "LinkedIn", "url": "https://linkedin.com" },
+      { "label": "Twitter", "url": "https://twitter.com" }
+    ],
+    "legalLinks": [
+      { "label": "Privacy Policy", "url": "privacy.html" },
+      { "label": "Terms & Conditions", "url": "terms.html" }
+    ],
+    "note": "A living portfolio. Updated as new projects finish."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "updated": "Last updated: September 2026",
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "This policy explains what information is collected through this site and how it is used. This site is operated by Leo, referred to here as \"I\" or \"me.\""
+        },
+        {
+          "heading": "Information I collect",
+          "body": "When you submit the contact form, I collect the name, email address, and message you enter. Standard hosting logs may record your IP address and browser type for security and diagnostic purposes."
+        },
+        {
+          "heading": "How I use it",
+          "body": "Information submitted through the contact form is used only to reply to your message. I do not sell or rent your information to third parties."
+        },
+        {
+          "heading": "Cookies",
+          "body": "This site does not use advertising or tracking cookies. If analytics are added in the future, this policy will be updated to describe what is collected and why."
+        },
+        {
+          "heading": "Third-party services",
+          "body": "Contact form submissions may pass through a third-party email delivery service in order to reach my inbox. That service processes the data only to deliver the message and does not use it for its own purposes."
+        },
+        {
+          "heading": "Data retention",
+          "body": "Inquiry details are kept only as long as needed to respond to your message."
+        },
+        {
+          "heading": "Your rights",
+          "body": "You can ask me to show you, correct, or delete the information I hold about you by emailing hello@leo.dev."
+        },
+        {
+          "heading": "Changes to this policy",
+          "body": "If this policy changes, the updated version will be posted on this page with a new date."
+        },
+        {
+          "heading": "Contact",
+          "body": "Questions about this policy can be sent to hello@leo.dev."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "updated": "Last updated: September 2026",
+      "sections": [
+        {
+          "heading": "Acceptance of terms",
+          "body": "By using this site, you agree to the terms described here. If you do not agree, please do not use the site."
+        },
+        {
+          "heading": "Purpose of this site",
+          "body": "This site is a personal portfolio used to show projects, skills, and certificates. It does not offer paid services or accept orders."
+        },
+        {
+          "heading": "Intellectual property",
+          "body": "The design and written content of this site belong to Leo unless stated otherwise. Individual project code may carry its own license, noted in that project's files where applicable. Certificates and the credentials they represent belong to their issuing organizations."
+        },
+        {
+          "heading": "Project file placeholders",
+          "body": "Some project and certificate entries on this site use placeholder file links pending upload of the actual files. These placeholders do not represent finished downloads."
+        },
+        {
+          "heading": "External links",
+          "body": "This site may link to external tools, repositories, or platforms. I am not responsible for the content or availability of external sites."
+        },
+        {
+          "heading": "No warranty",
+          "body": "This site and its content are provided as is, without warranty of any kind, including that any listed project or link will remain available or error-free."
+        },
+        {
+          "heading": "Limitation of liability",
+          "body": "I am not liable for any damages arising from your use of this site or reliance on its content."
+        },
+        {
+          "heading": "Changes to these terms",
+          "body": "If these terms change, the updated version will be posted on this page with a new date."
+        },
+        {
+          "heading": "Contact",
+          "body": "Questions about these terms can be sent to hello@leo.dev."
+        }
+      ]
+    }
+  }
+}
